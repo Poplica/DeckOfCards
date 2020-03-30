@@ -42,12 +42,13 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager" selected="JUnit.Tests.SortCardsTest">
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Tests.DetermineWinnersTest">
+    <configuration name="Tests.DetermineWinnersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DeckOfCards" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="DetermineWinnersTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -94,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.DetermineWinnersTest" />
         <item itemvalue="JUnit.Tests.SortCardsTest" />
         <item itemvalue="JUnit.Tests.DrawCardFromEmptyDeckTest" />
         <item itemvalue="JUnit.Tests.DrawCardTest" />
         <item itemvalue="JUnit.Tests.ShuffleDeckTest" />
-        <item itemvalue="JUnit.Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +113,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585587827633</updated>
-      <workItem from="1585587828765" duration="17742000" />
+      <workItem from="1585587828765" duration="19595000" />
     </task>
     <servers />
   </component>
@@ -128,22 +129,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1241" y="299" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585592342444" />
-    <state width="1340" height="475" key="GridCell.Tab.0.bottom" timestamp="1585607874352">
+    <state width="1340" height="410" key="GridCell.Tab.0.bottom" timestamp="1585610779368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="475" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585607874352" />
-    <state width="1340" height="475" key="GridCell.Tab.0.center" timestamp="1585607874352">
+    <state width="1340" height="410" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585610779368" />
+    <state width="1340" height="410" key="GridCell.Tab.0.center" timestamp="1585610779368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="475" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585607874352" />
-    <state width="1340" height="475" key="GridCell.Tab.0.left" timestamp="1585607874352">
+    <state width="1340" height="410" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585610779368" />
+    <state width="1340" height="410" key="GridCell.Tab.0.left" timestamp="1585610779368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="475" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585607874352" />
-    <state width="1340" height="475" key="GridCell.Tab.0.right" timestamp="1585607874352">
+    <state width="1340" height="410" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585610779368" />
+    <state width="1340" height="410" key="GridCell.Tab.0.right" timestamp="1585610779368">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="475" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585607874352" />
+    <state width="1340" height="410" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585610779368" />
     <state x="1215" y="445" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585589706319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

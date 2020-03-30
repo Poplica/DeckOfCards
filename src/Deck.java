@@ -41,9 +41,9 @@ public class Deck {
     }
 
     // Draws card on top of deck. If deck is empty, throw exception
-    public Card drawCard() throws EmptyStackException {
+    public Card drawCard() throws Exception {
         if (deck.isEmpty())
-            throw new EmptyStackException();
+            throw new Exception();
 
         return deck.remove(0);
     }
