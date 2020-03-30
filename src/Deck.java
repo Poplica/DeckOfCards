@@ -2,23 +2,23 @@ import java.util.*;
 
 public class Deck {
     private List<Card> deck;
-    private String[] suits;
+    private List<String> suits;
 
     public Deck(String[] suits) {
         this.deck = new ArrayList<>();
-        this.suits = suits;
+        this.suits = Arrays.asList(suits);
     }
 
     public List<Card> getDeck() {
         return deck;
     }
 
-    public String[] getSuits() {
+    public List<String> getSuits() {
         return suits;
     }
 
     public void setSuits(String[] suits) {
-        this.suits = suits;
+        this.suits = Arrays.asList(suits);
     }
 
     public int getSize() {
@@ -48,6 +48,19 @@ public class Deck {
         return deck.remove(0);
     }
 
+    // Sorts deck by given priority of suit then rank
+    public void sortDeck(String[] suitOrderPriority) {
+        List<String> arrSuits = Arrays.asList(suitOrderPriority);
+        deck.sort((a, b) -> {
+            if (!a.getSuit().equals(b.getSuit())) {
+                return arrSuits.indexOf(a.getSuit()) - arrSuits.indexOf(b.getSuit());
+            } else {
+                return a.getRank() - b.getRank();
+            }
+        });
+    }
+
+    // Shuffles the deck
     public void shuffle() {
         Collections.shuffle(this.deck);
     }
