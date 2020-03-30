@@ -1,17 +1,15 @@
-import java.util.Collections;
-import java.util.EmptyStackException;
-import java.util.Stack;
+import java.util.*;
 
 public class Deck {
-    private Stack<Card> deck;
+    private List<Card> deck;
     private String[] suits;
 
     public Deck(String[] suits) {
-        this.deck = new Stack<>();
+        this.deck = new ArrayList<>();
         this.suits = suits;
     }
 
-    public Stack<Card> getDeck() {
+    public List<Card> getDeck() {
         return deck;
     }
 
@@ -39,7 +37,7 @@ public class Deck {
 
     // Adds a card to top of the deck
     public void addCard(Card card) {
-        deck.push(card);
+        deck.add(card);
     }
 
     // Draws card on top of deck. If deck is empty, throw exception
@@ -47,7 +45,7 @@ public class Deck {
         if (deck.isEmpty())
             throw new EmptyStackException();
 
-        return deck.pop();
+        return deck.remove(0);
     }
 
     public void shuffle() {
