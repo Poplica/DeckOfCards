@@ -1,5 +1,10 @@
 import org.junit.jupiter.api.Test;
 
+import java.util.EmptyStackException;
+
+import static org.junit.jupiter.api.Assertions.assertNull;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class Tests {
 
     /**
@@ -10,6 +15,7 @@ public class Tests {
     public void ShuffleDeckTest() {
         String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
         Deck deck = new Deck(suits);
+
         deck.initDeck();
         System.out.println(deck);
 
@@ -20,16 +26,44 @@ public class Tests {
 
     /**
      * Get a card from the top of the deck:
-     * Get one card from top of the card deck, return a card, and if there is no card left in the deck,
-     * return error or exception
+     * Get one card from top of the card deck, return a card
      */
     @Test
     public void DrawCardTest() {
-//        Deck deck = new Deck();
+        String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
+        Deck deck = new Deck(suits);
 
+        deck.initDeck();
+//        deck.shuffle();
+        System.out.println(deck);
+
+        // Draw card
+        deck.drawCard();
+        System.out.println(deck);
+    }
+
+    /**
+     * If there is no card left in the deck, return error or exception
+     */
+    @Test
+    public void DrawCardFromEmptyDeckTest() {
+        String[] suits = {"Clubs", "Diamonds", "Hearts", "Spades"};
+        Deck deck = new Deck(suits);
+
+        // Exception should be thrown
+        try {
+            deck.drawCard();
+        } catch (EmptyStackException e) {
+            assertNull(e.getMessage());
+            System.out.println("Deck is empty!");
+        }
+        System.out.println(deck);
     }
 
     @Test
+    public void SortCardsTest() {
+        String[] suits = {"Red","Green","Yellow"};
+    }
 
     @Test
     public void DetermineWinnersTest() {

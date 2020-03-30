@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f743ddd-77d9-4bd3-ad82-2ce1adb44bdb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DeckOfCards/Deck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DeckOfCards/Deck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DeckOfCards/EmptyDeckException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DeckOfCards/Suit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DeckOfCards/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DeckOfCards/Tests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmptyDeckException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rank.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Suit.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,27 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Tests.DrawCardTest">
+    <configuration name="Tests.DrawCardFromEmptyDeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DeckOfCards" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="DrawCardFromEmptyDeckTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.DrawCardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DeckOfCards" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="DrawCardTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests.ShuffleDeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DeckOfCards" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,6 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.DrawCardTest" />
+        <item itemvalue="JUnit.Tests.DrawCardFromEmptyDeckTest" />
         <item itemvalue="JUnit.Tests.ShuffleDeckTest" />
       </list>
     </recent_temporary>
@@ -72,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585587827633</updated>
-      <workItem from="1585587828765" duration="9519000" />
+      <workItem from="1585587828765" duration="10694000" />
     </task>
     <servers />
   </component>
@@ -88,22 +109,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1241" y="299" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585592342444" />
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1585598026007">
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1585599492576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
-    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1585598026007">
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585599492576" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1585599492576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
-    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1585598026007">
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585599492576" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1585599492576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
-    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1585598026007">
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585599492576" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1585599492576">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585599492576" />
     <state x="1215" y="445" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585589706319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

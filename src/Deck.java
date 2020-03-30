@@ -27,6 +27,7 @@ public class Deck {
         return this.deck.size();
     }
 
+    // Creates a deck with given suits
     public void initDeck() {
         for (int i = 0; i < 10; i++) {
             for (String suit : suits) {
@@ -36,12 +37,12 @@ public class Deck {
         }
     }
 
+    // Adds a card to top of the deck
     public void addCard(Card card) {
         deck.push(card);
     }
 
-    // Draws card on top of deck
-    // If deck is empty, throw exception
+    // Draws card on top of deck. If deck is empty, throw exception
     public Card drawCard() throws EmptyStackException {
         if (deck.isEmpty())
             throw new EmptyStackException();
