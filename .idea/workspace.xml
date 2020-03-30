@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f743ddd-77d9-4bd3-ad82-2ce1adb44bdb" name="Default Changelist" comment="" />
+    <list default="true" id="5f743ddd-77d9-4bd3-ad82-2ce1adb44bdb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmptyDeckException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Suit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +24,12 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/DeckOfCards" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZrCSkewlmuDq6uPoypEjbPk7kT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +45,23 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
+  <component name="RunManager">
+    <configuration name="Tests.ShuffleDeckTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DeckOfCards" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="ShuffleDeckTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.Tests.ShuffleDeckTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -44,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585587827633</updated>
-      <workItem from="1585587828765" duration="5132000" />
+      <workItem from="1585587828765" duration="9519000" />
     </task>
     <servers />
   </component>
@@ -52,17 +80,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1316" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585592230581">
+    <state x="1316" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1585597535075">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1316" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585592230581" />
+    <state x="1316" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585597535075" />
     <state x="1241" y="299" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585592342444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1241" y="299" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585592342444" />
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom" timestamp="1585598026007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
+    <state width="1340" height="266" key="GridCell.Tab.0.center" timestamp="1585598026007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
+    <state width="1340" height="266" key="GridCell.Tab.0.left" timestamp="1585598026007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
+    <state width="1340" height="266" key="GridCell.Tab.0.right" timestamp="1585598026007">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1340" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585598026007" />
     <state x="1215" y="445" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585589706319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1215" y="445" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1585589706319" />
+    <state x="847" y="237" key="run.anything.popup" timestamp="1585597616871">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="847" y="237" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585597616871" />
+    <state x="656" y="361" width="672" height="678" key="search.everywhere.popup" timestamp="1585598220371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="361" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585598220371" />
   </component>
 </project>

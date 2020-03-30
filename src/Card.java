@@ -1,16 +1,16 @@
 public class Card {
-    private Suit suit;
-    private Rank rank;
+    private String suit;
+    private int rank;
 
-    public Rank getRank() {
+    public int getRank() {
         return rank;
     }
 
-    public Suit getSuit() {
+    public String getSuit() {
         return suit;
     }
 
-    public Card(Suit suit, Rank rank) {
+    public Card(String suit, int rank) {
         this.suit = suit;
         this.rank = rank;
     }
